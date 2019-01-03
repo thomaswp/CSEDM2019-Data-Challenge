@@ -3,17 +3,34 @@
 As part of the 2nd [Educational Data Mining in Computer Science Education](https://sites.google.com/asu.edu/csedm-ws-lak-2019/) (CSEDM) Workshop at [LAK 2019](https://lak19.solaresearch.org), we are releasing a **Data Challenge**. The goal of this challenge is to bring researchers together to tackle a common data mining task that is specific to CS Education. This year, we are focusing on the task of modeling students' programming knowledge in order to predict their performance on future tasks.
 The rest of this document contains a summary of the task itself and documentation of the dataset used in the challenge.
 
+For the most up-to-date version of this README, please see the version [hosted on GitHub](https://github.com/thomaswp/CSEDM2019-Data-Challenge).
+
 For the most up-to-date information on the challenge and the workshop, see the workshop's [call for papers](https://sites.google.com/asu.edu/csedm-ws-lak-2019/call-for-papers).
 
 For any questions on the Data Challenge, please contact Thomas Price at twprice@ncsu.edu.
 
+
 ## Accessing the Data
 
-The dataset used in the challenge is hosted on the [PSLC Datashop](https://pslcdatashop.web.cmu.edu) at: https://pslcdatashop.web.cmu.edu/Files?datasetId=2864.
+The dataset used in the challenge is hosted on the [PSLC Datashop](https://pslcdatashop.web.cmu.edu) at: https://pslcdatashop.web.cmu.edu/Files?datasetId=2865.
 
-To access the data, you must create an account, and then send your account username to Thomas Price at twprice@ncsu.edu. Please use the subject line: "CSEDM Data Challenge Access Request". 
+To access the data, you must create an account, and then send your account username to Thomas Price at twprice@ncsu.edu. 
 
-We are currently working on creating a public dataset, and will update this document with a URL when it is available. In the meantime you must request access to the data.
+We **strongly recommend** signing up for the [CSEDM data challenge email list here]([https://goo.gl/forms/8atiAOek8nJHtBSo2]). This will enable us to contact you if there are known issues or updates to the data.
+
+
+## Submissions
+
+Submissions to the contest should include the following files:
+
+1) A 2-6 page short paper detailing the methods used to make the predictions.
+2) All code used to make the predictions, including a README file explaining how to run the code, using the challenge dataset. If it is not possible to provide a runnable version of the code (e.g. because it has closed-source dependencies), please include as much code as possible, and explain the missing parts in the README.
+3) For each classifier (or variant) that you evaluated, include the 3 output files, cv_predict, evaluation_by_problem, and evaluation_overall, as explained in the Example section above. These files should respectively contain the actual predictions made by the classifier, the evaluation metrics for each problem, and the evaluation metrics for the classifier overall.
+
+Submissions can be made on the [CSEDM Easychair page](https://easychair.org/conferences/?conf=csedm2019).
+
+Please see the CSEDM 2019 [call for papers](https://sites.google.com/asu.edu/csedm-ws-lak-2019/call-for-papers) for up-to-date information on submission deadlines.
+
 
 ## Challenge Summary
 
@@ -127,16 +144,6 @@ The code produces the following files:
 
 We have also included a model.txt file with the logistic regression model, showing that both the average difficulty of the problem itself, and a given student's prior percent of correct first attempts are significantly predictive of students' success on future problems. Of course, this model does not consider any information about the programming concepts in each problem, so it serves as a naive baseline against which to compare more interesting models.
 
-
-## Submissions
-
-Submissions to the contest should include the following files:
-
-1) A 2-6 page short paper detailing the methods used to make the predictions.
-2) All code used to make the predictions, including a README file explaining how to run the code, using the challenge dataset. If it is not possible to provide a runnable version of the code (e.g. because it has closed-source dependencies), please include as much code as possible, and explain the missing parts in the README.
-3) For each classifier (or variant) that you evaluated, include the 3 output files, cv_predict, evaluation_by_problem, and evaluation_overall, as explained in the Example section above. These files should respectively contain the actual predictions made by the classifier, the evaluation metrics for each problem, and the evaluation metrics for the classifier overall.
-
-Please see the CSEDM 2019 [call for papers](https://sites.google.com/asu.edu/csedm-ws-lak-2019/call-for-papers) for up-to-date information on submission deadlines.
 
 ## Caveats
 
