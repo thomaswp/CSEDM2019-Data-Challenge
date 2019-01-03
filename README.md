@@ -10,6 +10,11 @@ For the most up-to-date information on the challenge and the workshop, see the w
 For any questions on the Data Challenge, please contact Thomas Price at twprice@ncsu.edu.
 
 
+## Challenge Summary
+
+The goal of this Data Challenge is to use previous students' programming process data to predict whether future students will succeed at a given programming task. This is a central challenge of student modeling, often called Knowledge Tracing [1]. Such a predictive model can be used to enable Mastery Learning [2], to make adaptive or feedback that targets struggling students [3], or to encourage students through an open learner model [4]. You will be given a dataset containing records of students' attempts a set of programming problems, including whether each attempt was correct or incorrect, and the code submitted. Your task is to build a model that can predict, given a student's performance up until a given problem, whether or not that student will succeed at their first attempt at that problem. While similar knowledge tracing tasks have been attempted in many domains (including programming), they usually rely on labels for each problem, identifying which Knowledge Componentss (KCs), or domain concepts, are required by that problem (e.g. in [5]). The goal of this Data Challenge is to leverage CS-specific aspects of the data, namely the source code, to build a model without these KC labels, as was attempted in [6-7]. For example, one approach is to automatically extract concepts from code (e.g. "loop", "conditional") to use in a model of student knowledge, as in [7-9].
+
+
 ## Accessing the Data
 
 The dataset used in the challenge is hosted on the [PSLC Datashop](https://pslcdatashop.web.cmu.edu) at: https://pslcdatashop.web.cmu.edu/Files?datasetId=2865.
@@ -30,11 +35,6 @@ Submissions to the contest should include the following files:
 Submissions can be made on the [CSEDM Easychair page](https://easychair.org/conferences/?conf=csedm2019).
 
 Please see the CSEDM 2019 [call for papers](https://sites.google.com/asu.edu/csedm-ws-lak-2019/call-for-papers) for up-to-date information on submission deadlines.
-
-
-## Challenge Summary
-
-The goal of this Data Challenge is to use previous students' programming process data to predict whether future students will succeed at a given programming task. This is a central challenge of student modeling, often called Knowledge Tracing [1]. Such a predictive model can be used to enable Mastery Learning [2], to make adaptive or feedback that targets struggling students [3], or to encourage students through an open learner model [4]. You will be given a dataset containing records of students' attempts a set of programming problems, including whether each attempt was correct or incorrect, and the code submitted. Your task is to build a model that can predict, given a student's performance up until a given problem, whether or not that student will succeed at their first attempt at that problem. While similar knowledge tracing tasks have been attempted in many domains (including programming), they usually rely on labels for each problem, identifying which Knowledge Componentss (KCs), or domain concepts, are required by that problem (e.g. in [5]). The goal of this Data Challenge is to leverage CS-specific aspects of the data, namely the source code, to build a model without these KC labels, as was attempted in [6-7]. For example, one approach is to automatically extract concepts from code (e.g. "loop", "conditional") to use in a model of student knowledge, as in [7-9].
 
 
 ## Evaluation
