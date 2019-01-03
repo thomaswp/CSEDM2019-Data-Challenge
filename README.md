@@ -16,7 +16,7 @@ The dataset used in the challenge is hosted on the [PSLC Datashop](https://pslcd
 
 To access the data, you must create an account, and then send your account username to Thomas Price at twprice@ncsu.edu. 
 
-We **strongly recommend** signing up for the [CSEDM data challenge email list here]([https://goo.gl/forms/8atiAOek8nJHtBSo2]. This will enable us to contact you if there are known issues or updates to the data.
+We **strongly recommend** signing up for the [CSEDM data challenge email list here](https://goo.gl/forms/8atiAOek8nJHtBSo2). This will enable us to contact you if there are known issues or updates to the data.
 
 
 ## Submissions
