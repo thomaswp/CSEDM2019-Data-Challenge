@@ -34,7 +34,16 @@ Submissions to the contest should include the following files:
 
 Submissions can be made on the [CSEDM Easychair page](https://easychair.org/conferences/?conf=csedm2019).
 
+The CSEDM Workshop will include a time to discuss the Data Challenge, and all submission authors will be given a chance to briefly present their work, with extra time allotted to the winner.
+
 Please see the CSEDM 2019 [call for papers](https://sites.google.com/asu.edu/csedm-ws-lak-2019/call-for-papers) for up-to-date information on submission deadlines.
+
+
+### Winner and Prizes
+
+The Data Challenge winner will be the submission that achieve the best *overall* F1-score (see the Evaluation section below). We will verify the evaluation results for the winning submission, to ensure accurate evaluation. The winner will receive free registration to the CSEDM conference.
+
+Authors of the top-3 performing submissions will be invited to contribute to coauthor a publication on the Data Challenge and their submissions.
 
 
 ## Evaluation
