@@ -41,7 +41,7 @@ Please see the CSEDM 2019 [call for papers](https://sites.google.com/asu.edu/cse
 
 ### Winner and Prizes
 
-The Data Challenge winner will be the submission that achieve the best *overall* F1-score (see the Evaluation section below). We will verify the evaluation results for the winning submission, to ensure accurate evaluation. The winner will receive free registration to the CSEDM conference.
+The Data Challenge winner will be the submission that achieve the best *overall* F1-score (see the Evaluation section below). We will verify the evaluation results for the winning submission, to ensure accurate evaluation. The winner will receive **free registration** to the CSEDM conference (via reimbursement), sponsored by [CS-SPLICE](http://cssplice.org).
 
 Authors of the top-3 performing submissions will be invited to contribute to coauthor a publication on the Data Challenge and their submissions.
 
