@@ -36,6 +36,8 @@ Submissions can be made on the [CSEDM Easychair page](https://easychair.org/conf
 
 The CSEDM Workshop will include a time to discuss the Data Challenge, and all submission authors will be given a chance to briefly present their work, with extra time allotted to the winner.
 
+**Note**: While we strongly encourage submission authors to plan to attend the CSEDM Workshop, we still welcome submission from those who cannot attend. Since the Data Challenge submission deadline comes after the conference, we understand that some authors may not have time to make travel arrangements.
+
 Please see the CSEDM 2019 [call for papers](https://sites.google.com/asu.edu/csedm-ws-lak-2019/call-for-papers) for up-to-date information on submission deadlines.
 
 
