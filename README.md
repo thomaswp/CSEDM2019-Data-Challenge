@@ -17,7 +17,7 @@ The goal of this Data Challenge is to use previous students' programming process
 
 ## Accessing the Data
 
-The dataset used in the challenge is hosted on the [PSLC Datashop](https://pslcdatashop.web.cmu.edu) at: https://pslcdatashop.web.cmu.edu/Files?datasetId=2865.
+The dataset used in the challenge is hosted on the [PSLC Datashop](https://pslcdatashop.web.cmu.edu) at: https://pslcdatashop.web.cmu.edu/Files?datasetId=2865. **Note**: Click the "Files" tab and download the `DataChallenge.zip` file.
 
 To access the data, you must create an account, and then send your account username to Thomas Price at twprice@ncsu.edu. 
 
