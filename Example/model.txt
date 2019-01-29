@@ -1,0 +1,27 @@
+﻿Call:
+glm(formula = FirstCorrect ~ pCorrectForProblem + medAttemptsForProblem + 
+    priorAttempts + priorPercentCorrect + priorPercentCompleted, 
+    family = "binomial", data = training)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.3921  -0.8292   0.2825   0.7212   2.1827  
+
+Coefficients:
+                      Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -4.30367    0.56173  -7.662 1.84e-14 ***
+pCorrectForProblem     5.54136    0.52314  10.593  < 2e-16 ***
+medAttemptsForProblem  0.05056    0.09807   0.516 0.606187    
+priorAttempts          0.01358    0.02090   0.650 0.515803    
+priorPercentCorrect    1.60598    0.45591   3.523 0.000427 ***
+priorPercentCompleted  0.54944    0.54147   1.015 0.310243    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1009.88  on 728  degrees of freedom
+Residual deviance:  733.15  on 723  degrees of freedom
+AIC: 745.15
+
+Number of Fisher Scoring iterations: 5

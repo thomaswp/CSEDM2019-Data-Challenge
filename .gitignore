@@ -1,0 +1,5 @@
+*.Rproj*
+*.RData
+*.Rhistory
+*.csv
+!Example/*.csv
