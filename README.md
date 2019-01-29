@@ -9,6 +9,7 @@ For the most up-to-date information on the challenge and the workshop, see the w
 
 For any questions on the Data Challenge, please contact Thomas Price at twprice@ncsu.edu.
 
+Document version 1.1 (see version history)
 
 ## Challenge Summary
 
@@ -155,6 +156,7 @@ The code produces the following files:
 
 We have also included a model.txt file with the logistic regression model, showing that both the average difficulty of the problem itself, and a given student's prior percent of correct first attempts are significantly predictive of students' success on future problems. Of course, this model does not consider any information about the programming concepts in each problem, so it serves as a naive baseline against which to compare more interesting models.
 
+Note that while the model performs decently overall (accuracy = 73%; f1 = 0.70), its per-problem performance is quite bad. For many problems, it ends up predicting that all students succeed or fail. This is because problem difficulty is the most influential variable in the model, with students' past performance carrying a much smaller weight, so for difficult or easy problems, it ends up always making the same prediction. This low performance is expected for a naive, baseline classifier.
 
 ## Caveats
 
@@ -162,6 +164,17 @@ A few important notes for the dataset:
 * Remember that the problems can be completed in any order
 * Each attempt is assigned correctness based on whether it passes a set of unit tests withing 0.5 seconds. Note that the original dataset on PSLC did not contain accurate information on whether each attempt was correct, and these values have been generated post hoc. The "Correct" value may therefore not align perfectly with the feedback the student actually received.
 * Three problems do not have "Correct" values: `treasureHunt`, `mostAnagrams` and `findTheCircle`. These problems had few attempts and occurred after the problems for which predictions are being evaluated.
+
+## History
+
+### v1.1 2019/01/29
+
+The Data Challenge example was updated due to an error in the original code used to evaluate the model. The model extracts two features called `pCorrectForProblem` and `medAttemptsForProblem`, which respectively give the percent of student who succeeded on each problem, and the median number of attempts students made on each problem. These are calculated using the performance of *all* students in the training dataset. In the original version, the example code recalculated these features for the *test* dataset during crossvalidation. This is not allowed, since the test dataset includes the student whose success we are predicting, and this student would contribute to the "average success rate" that was calculated. The code has been updated to use the features calculated on the *training data* when making predictions for the test dataset.
+
+This change lowered the accuracy of the naive classifier from 79% to 73%.
+
+### v1.0 2018/12/30
+Data Challenge released
 
 
 ## References
