@@ -33,7 +33,7 @@ Submissions to the contest should include the following files:
 2) All code used to make the predictions, including a README file explaining how to run the code, using the challenge dataset. If it is not possible to provide a runnable version of the code (e.g. because it has closed-source dependencies), please include as much code as possible, and explain the missing parts in the README.
 3) For each classifier (or variant) that you evaluated, include the 3 output files, cv_predict, evaluation_by_problem, and evaluation_overall, as explained in the Example section above. These files should respectively contain the actual predictions made by the classifier, the evaluation metrics for each problem, and the evaluation metrics for the classifier overall.
 
-Submissions can be made on the [CSEDM Easychair page](https://easychair.org/conferences/?conf=csedm2019).
+Paper submissions can be made on the [CSEDM Easychair page](https://easychair.org/conferences/?conf=csedm2019), and code and results can be uploaded via [this Google Form](https://goo.gl/forms/mgvYsFcQ5ciWLnRE2).
 
 The CSEDM Workshop will include a time to discuss the Data Challenge, and all submission authors will be given a chance to briefly present their work, with extra time allotted to the winner.
 
